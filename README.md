@@ -9,5 +9,14 @@ $ docker-compose up -d
 ```
 
 
-# Configuration de la personnalisation de l'email (voir dans les fichiers de conf "configuration_email.txt")
+# Configuration de la personnalisation de l'email
+
+Voilà à quoi ressemble un mail d'alerte de niveau 12 : 
+
+![alt text](screenshots/alerte_12_old.png)
+
+Grâce au script, on a les informations les plus importantes et une présentation plus clair. 
+
 ![alt text](screenshots/image.png)
+
+(voir documentation : documentation/configuration_email.md )
