@@ -20,3 +20,7 @@ Grâce au script, on a les informations les plus importantes et une présentatio
 ![alt text](screenshots/image.png)
 
 (voir documentation : documentation/configuration_email.md )
+
+Petite update au niveau du style de la page 
+
+![alt text](screenshots/last_css.png)
