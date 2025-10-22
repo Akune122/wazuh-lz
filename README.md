@@ -7,3 +7,7 @@ Dans le répertoire du fichier :
 ```
 $ docker-compose up -d
 ```
+
+
+# Configuration de la personnalisation de l'email (voir dans les fichiers de conf "configuration_email.txt")
+![alt text](screenshots/image.png)
