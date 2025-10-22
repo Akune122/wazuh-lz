@@ -102,6 +102,21 @@ services:
     networks:
       - wazuh-net
 
+  postfix:
+    image: boky/postfix
+    restart: always
+    environment:
+      - SMTP_SERVER=smtp.gmail.com
+      - SMTP_USERNAME=${SMTP_APP_USER}
+      - SMTP_PASSWORD=${SMTP_APP_PASSWORD}
+      - SERVER_HOSTNAME=wazuh-mail
+      - RELAY_NETWORKS=:192.168.0.0/16:10.0.0.0/8
+      - ALLOW_EMPTY_SENDER_DOMAINS=true
+    ports:
+      - "25:25"
+    networks:
+      - wazuh-net
+
 volumes:
   wazuh_api_configuration:
   wazuh_etc:
